@@ -8,4 +8,11 @@ describe('copyAndPush', () => {
 
     expect(actual).toEqual(expected);
   });
+
+  it('makes sure that the original array is unchanged', async () => {
+    const actual = [1, 2, 3];
+    const expected = [1, 2, 3];
+
+    expect(actual).toEqual(expected);
+  });
 });
