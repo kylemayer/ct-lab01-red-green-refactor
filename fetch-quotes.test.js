@@ -8,8 +8,6 @@ describe('fetchQuotes', () => {
       image: expect.any(String)
     };
 
-
-
     expect(await fetchQuotes()).toEqual(expected);
   });
 });
